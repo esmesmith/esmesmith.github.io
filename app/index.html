@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Example CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Artsi</title>
+  </head>
+  <body>
+    <header>
+        <h1>
+            <img src="assets/images/icon.png" alt="icon" />
+            Artsi
+        </h1>
+    </header>
+    <main>
+      <div id="results-list" style="display: none;">
+        <section>
+            <p>
+                Find a candidate you're looking for by Select a category from the dropdown below
+            </p>
+        </section>
+        <section>
+            <form>
+                <div id="filter" class="select">
+                    <select>
+                        <option>Please select</option>
+                        <option value="twenties">The Twenties</option>
+                        <option value="forties">The Forties</option>
+                        <option value="sixties">The Sixties</option>
+                        <option value="eighties">The Eighties</option>
+                        <option value="noughties">The Noughties</option>
+                    </select>
+                </div>
+                <button>Find candidate</button>
+            </form>
+        </section>
+        <section>
+            <h2>Showing results for <span id="result-type">The Twenties</span></h2>
+
+            <div id="filtered-data">
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/images/natalia.jpg" alt="Russian artist" />
+                    </div>
+                    <div class="info">
+                        <h3>Natalia Goncharova</h3>
+                        <p>Natalia Goncharova was a Russian avant-garde artist, painter, costume designer, writer, illustrator, and set designer.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/images/natalia.jpg" alt="Russian artist" />
+                    </div>
+                    <div class="info">
+                        <h3>Natalia Goncharova</h3>
+                        <p>Natalia Goncharova was a Russian avant-garde artist, painter, costume designer, writer, illustrator, and set designer.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/images/natalia.jpg" alt="Russian artist" />
+                    </div>
+                    <div class="info">
+                        <h3>Natalia Goncharova</h3>
+                        <p>Natalia Goncharova was a Russian avant-garde artist, painter, costume designer, writer, illustrator, and set designer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      </div>
+
+      <div id="full-item-view">
+        <button id="Back-to-start" type="button">Go Back</button>
+          <div class="image">
+              <img src="assets/images/hockney.jpg" alt="hockney" />
+          </div>
+          <div class="info">
+              <h3>David Hockney</h3>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut semper diam. Aenean maximus felis elit, non pharetra nulla egestas in. Praesent
+                a ex sit amet nisi consequat placerat nec at ante. Pellentesque tincidunt, massa eget ullamcorper efficitur, urna urna condimentum quam,
+                eget ornare odio lorem at lorem. Phasellus venenatis pulvinar augue vel fringilla. Aenean a enim metus. Morbi semper mauris laoreet porta efficitur.
+              </p>
+          </div>
+        </div>
+    </main>
+    <!-- Example JS link -->
+    <script src="app.js"></script>
+  </body>
+</html>

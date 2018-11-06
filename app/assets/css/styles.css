@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'open sans', sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+}
+/* header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #588759;
+    padding: 15px;
+    z-index: 100;
+}
+    header h1 {
+        margin: 0;
+        font-size: 60px;
+    }
+
+
+/* main */
+
+main {
+    /* padding: 150px 15px 80px 15px; */
+    text-align: left;
+    font-size: 15px;
+}
+
+
+/* Form */
+
+header img {
+  width: 140px;
+  height: auto;
+}
+
+h2 {
+line-height: 29px;
+
+}
+
+form {
+    padding-top: 20px;
+}
+
+select {
+    font-family: 'open sans', sans-serif;
+    background-color: #588759;
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 100%;
+
+}
+.select {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+    .select:after {
+        content: "\f107";
+        font-family: 'FontAwesome';
+        position: absolute;
+        right: 10px;
+        top: 2px;
+    }
+button {
+    font-family: 'open sans', sans-serif;
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 7.5px 15px;
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+}
+
+#result-type {
+    color: #588759;
+}
+
+.item {
+    text-align: left;
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+}
+    .item:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .item .image {
+        float: left;
+        width: 30%;
+    }
+        .item .image img {
+            max-width: 100%;
+            height: auto;
+        }
+    .item .info {
+        display: inline-block;
+        width: 70%;
+        float: right;
+        padding: 0 15px;
+        font-size: 15px;
+    }
+        .item .info h3 {
+            margin-top: 0;
+        }
+
+#full-item-view {
+  display: inline-block;
+  padding: 0 15px;
+  margin-top: 150px;
+
+}
+
+#full-item-view .image img {
+  max-width: 100%;
+  height: auto;
+}
